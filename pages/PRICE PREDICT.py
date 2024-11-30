@@ -6,10 +6,10 @@ import numpy as np
 # from joblib import dump
 
 # Load the dataset
-df1 = pd.read_csv('pages/CarPrice_Assignment.csv')
+df1 = pd.read_csv('./pages/CarPrice_Assignment.csv')
 
 # Load the trained model
-model = pickle.load(open('pages/model1.sav', 'rb'))
+model = pickle.load(open('./pages/model1.sav', 'rb'))
 print(type(model))  # Check the model type (should be LinearRegression)
 
 st.title("CARS PRICE PREDICT")
