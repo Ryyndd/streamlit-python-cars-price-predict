@@ -1,9 +1,7 @@
 import pickle
 import streamlit as st 
-import altair as alt 
 import pandas as pd 
-import numpy as np 
-# from joblib import dump
+from joblib import dump
 
 # Load the dataset
 df1 = pd.read_csv('pages/CarPrice_Assignment.csv')
